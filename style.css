@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #EDEDF0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card1{
+    width: 400px;
+    padding: 30px;
+    margin: 20px auto;
+    /* border: 2px solid royalblue; */
+    background-color: white;
+    border-radius: 14px;
+}
+.text-center{
+    text-align: center;
+}
+.card1-img{
+    width: 100%;
+}
+.card1-input{
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border: 2px solid #6A30FF;
+    border-radius: 14px;
+    text-align: center;
+}
+
+.btn{
+    width: 100%;
+    padding: 15px 20px;
+    background-color: #6A30FF;
+    color: white;
+    border-radius: 14px;
+    border: none;
+    font-size: 15px;
+
+}
+.card1-text{
+    margin-bottom: 20px;
+    color: #646466;
+    font-size: 16px;
+}
+span{
+    color:black;
+}
+.card2-img{
+    width: 60px;
+}
+
+.work{
+    display: flex;
+    flex-wrap: unset;
+    /* align-content: center !important; */
+    /* background-color: #df1b12; */
+    align-items: center;
+    padding: 10px;
+    /* margin-bottom: 15px; */
+    gap: 10px;
+}
+.work-img{
+    width: 25px;
+}
+.work:hover {
+    background-color: #F3F3F5;
+    border-radius: 14px;
+}
+.disclaimer{
+    color: #A1A1A3;
+    font-size: 10px;
+    margin-top: 10px;
+}
+.card2-text{
+    margin-bottom: 20px;
+    color: #646466;
+    font-size: 15px;
+}
+.addFlex{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.flex-item {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 12px;
+    border: 2px solid lightgrey;
+}
+
+select#industry, select#company-size {
+    padding: 10px;
+    border: 2px solid lightgray;
+    border-radius: 12px;
+}
+
+#company-name:focus ~ label,select#industry:focus ~ label, select#company-size:focus ~ label{
+    color: royalblue;
+}
+/* 
+select#industry:focus ~ label{
+    color: royalblue;
+}
+
+select#company-size:focus ~ label{
+    color: royalblue;
+} */
+ .btn-cls{
+    font-weight: 600;
+    padding: 10px 25px;
+    margin: 15px 0;
+    background-color: #df1b12;
+    color: white;
+    width: 100%;
+    border: none;
+    border-radius: 12px;
+ }

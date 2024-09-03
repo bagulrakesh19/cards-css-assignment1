@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card1 text-center">
+        <img src="card1-img.png" class="card1-img" alt="">
+        <div class="card1-content">
+            <h1>Check your email</h1>
+            <div class="card1-text">
+                Enter the 6 digit code we just sent to <span>amy.smith@zest.com</span> to continue.
+            </div>
+        </div>
+
+        <input type="text" class="card1-input">
+        <button class="btn">
+            Continue
+        </button>
+    </div>
+
+
+    <div class="card2">
+        <div class="card1 text-center">
+            <img src="waving-hand.svg" class="card2-img" alt="card2-img">
+            <h1>Welcome Amy</h1>
+            <div class="card2-text">
+                Its a great to have you with us! To help us to optimize your experience, tell us how you plan to use
+                openPhone.
+            </div>
+            <div class="work">
+                <img src="work.png" class="work-img" alt="work-img">
+                Work
+            </div>
+            <div class="work">
+                <img src="personal.svg" class="work-img" alt="work-img">
+                Personal
+            </div>
+        </div>
+    </div>
+
+    <div class="card3">
+        <div class="card1 text-center">
+            <img src="phone.png" alt="" class="card2-img">
+            <h1>Phone number</h1>
+            <div class="card2-text">
+                Would you like a new OpenPhone number, or want to port your existing number over?
+            </div>
+            <div class="work">
+                <img src="work.png" class="work-img" alt="work-img">
+                Work
+            </div>
+            <div class="work">
+                <img src="personal.svg" class="work-img" alt="work-img">
+                Personal
+            </div>
+            <div class="disclaimer">
+                If you choose to port your existing number, you will be given a temporary OpenPhone number to test
+                things out with during porting process.
+            </div>
+        </div>
+    </div>
+
+
+    <div class="card4">
+        <div class="card1 text-center">
+            <img class="card2-img" src="debit.png" alt="debitCard">
+            <h1>Card details</h1>
+            <div class="card2-text">
+                Enter your card details to kick start your free trial. Don't worry you won't be charge a dime until your
+                free trial ends in <span>7 days.</span>
+            </div>
+
+            <input type="text" class="card1-input">
+            <button class="btn">
+                Start your 7-day free trial
+            </button>
+        </div>
+    </div>
+
+    <div class="card1">
+        <div class="text-center">
+            <h1>Your company</h1>
+        <div class="card5-text">
+            Tell us about your company. You wll be able to invite your teammates in the next step.
+        </div>
+        </div>
+        
+
+        <div class="input-data">
+            <div class="addFlex">
+                <div class="flex-item">
+                    <!-- <label for="company-name" class="input-label">Company name</label> -->
+                    <input type="text" id="company-name">
+                    <label for="company-name" class="input-label">Company name</label>
+                </div>
+                <div class="flex-item">
+                    
+                    <select name="industry" id="industry">
+                        <option value="creative_agency">Creative Agency</option>
+                        <option value="manufacturing">Manufacturing</option>
+                        <option value="information_tech">Information Technology</option>
+                        <option value="chemical">Chemical</option>
+                        <option value="medical">Medical</option>
+                    </select>
+                    <label for="industry" class="input-label">Industry (optional)</label>
+                </div>
+                <div class="flex-item">
+                    
+                    <select name="company-size" id="company-size">
+                        <option value="2-10">20-100</option>
+                        <option value="100-500">100-500</option>
+                        <option value="500-1000">500-1000</option>
+                    </select>
+                    <label for="company-size" class="input-label">Company size</label>
+                </div>
+
+            </div>
+
+            <label for="company-type" class="input-label">Company type</label>
+            <input type="radio" name="company-type" id="type1" value="public"><label for="company-type">Public</label>
+            <input type="radio" name="company-type" id="type2" value="private"><label for="company-type">private</label>
+        </div>
+        <button class="btn-cls" type="button">Send Data</button>
+    </div>
+
+</body>
+
+</html>
